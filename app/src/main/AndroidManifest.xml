@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SaumiyaApp"
         tools:targetApi="31">
         <activity
+            android:name=".implicit"
+            android:exported="false" />
+        <activity
             android:name=".layout"
             android:exported="false" />
         <activity
